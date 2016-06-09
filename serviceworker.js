@@ -1,4 +1,4 @@
-var CACHE_NAME = 'ndc-oslo-demo-cache';
+var CACHE_NAME = 'demo-cache-v2';
 var urlsToCache = [
   'index.html',
   'bundle.js',
@@ -42,6 +42,6 @@ self.addEventListener('fetch', function(event) {
             console.log('[SW] Return new files to client');
             return response;
           });
-      });
-    );
+      })
+  );
 });
