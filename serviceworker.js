@@ -1,4 +1,4 @@
-var CACHE_NAME = 'demo-cache-v2';
+var CACHE_NAME = 'ndc-demo-v3';
 var urlsToCache = [
   'index.html',
   'bundle.js',
