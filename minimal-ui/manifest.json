@@ -1,0 +1,13 @@
+{
+  "name": "NDC Oslo",
+  "icons": [
+    {
+      "src": "../ndc-logo.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "minimal-ui",
+  "orientation": "portrait"
+}
