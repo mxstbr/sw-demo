@@ -1,12 +1,10 @@
 {
   "name": "Demo App",
-  "icons": [
-    {
-      "src": "wave.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    }
-  ],
+  "icons": [{
+    "src": "wave.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }],
   "start_url": "index.html",
   "display": "standalone",
   "orientation": "portrait"
