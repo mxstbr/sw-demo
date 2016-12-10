@@ -45,3 +45,8 @@ self.addEventListener('fetch', function(event) {
       })
   );
 });
+
+self.addEventListener('activate', function(event) {
+  console.log('[SW] Claiming this ServiceWorker!');
+  event.waitUntil(self.clients.claim());
+});
